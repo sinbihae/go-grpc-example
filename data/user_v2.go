@@ -1,7 +1,7 @@
 package data
 
 import (
-	userpb "github.com/dojinkimm/go-grpc-example/protos/v2/user"
+	userpb "github.com/sinbihae/go-grpc-example/protos/v2/user"
 )
 
 var UsersV2 = []*userpb.UserMessage{
@@ -36,4 +36,3 @@ var UsersV2 = []*userpb.UserMessage{
 		Age:         25,
 	},
 }
-
